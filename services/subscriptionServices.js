@@ -5,7 +5,7 @@ import webpush from 'web-push'
 
 
 import masterdataServices from '../services/masterdataServices';
-import { PrismaClient, Prisma } from '.prisma/client/index';
+import { PrismaClient } from '.prisma/client/index';
 import datetimeService from '../services/dateTimeServices'; 
 import authenticationJWT from '../services/authenticationJWT'
 

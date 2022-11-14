@@ -4,7 +4,10 @@ dotenv.config();
 
 import bcrypt from 'bcrypt';
 import jwt from 'jwt-simple';
-import { PrismaClient } from '.prisma/client/index';
+//import  PrismaClient  from '@prisma/client';
+//import { PrismaClient } from '.prisma/client/index';
+import Prisma from '@prisma/client';
+const { PrismaClient } = Prisma;
 import masterdataServices from '../services/masterdataServices';
 import datetimeService from '../services/dateTimeServices'; 
 const secretKey = 'aaabbbccc';
